@@ -14,6 +14,7 @@
     {{ header_meta }}
 
     <link href="{{ assets('css/style.css') }}" rel="stylesheet" />
+    <link href="{{ assets('css/mystyle.css') }}" rel="stylesheet" />
 
     {% if site.analytics %}
     <script>
@@ -38,6 +39,44 @@
     <div class="container-narrow">
 
         <header class="site-header">
+            <hgroup>
+              <h1>
+                <a href="/" rel="index">
+                  <span class="jason">Moody</span><span class="space">&nbsp;</span><span class="codes">Codes</span>
+                </a>
+              </h1>
+              <h2>Perfect bloggy<span class="period">.</span></h2>
+            </hgroup>
+            <aside>
+              <span class="what">code <span class="amp">&amp;</span> rants</span> of
+              <a href="http://jasonweathered.com/" rel="me"><strong class="who">Jason Weathered</strong></a><span class="period">.</span>
+            </aside>
+
+              <ul class="links">
+
+                  <li class="twitter">
+                    <a href="https://twitter.com/jasoncodes" rel="me">
+                      <span class="name">Twitter</span>
+                      <span class="suffix">stream</span>
+                    </a>
+                  </li>
+
+                  <li class="github">
+                    <a href="https://github.com/jasoncodes" rel="me">
+                      <span class="name">GitHub</span>
+                      <span class="suffix">repositories</span>
+                    </a>
+                  </li>
+
+                  <li class="stackoverflow">
+                    <a href="http://stackoverflow.com/users/3736/jason-weathered" rel="me">
+                      <span class="name">Stack Overflow</span>
+                      <span class="suffix">questions &amp; answers</span>
+                    </a>
+                  </li>
+
+              </ul>
+
             <div class="author-card">
                 <div class="avatar">
                     <a href="/"><img src="{{ site.avatar }}" class="img-circle" alt="{{ site.author }}" /></a>
