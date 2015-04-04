@@ -9478,3 +9478,130 @@ hr.large {
   line-height: 10pt;
   padding: 7px;
 }
+
+body {
+  background: white;
+  color: black;
+  font-family: Palatino, "Book Antiqua", Baskerville, Georgia, Times, "Times New Roman", serif;
+  font-size: 100%;
+  line-height: 1.5em;
+  margin: 8px 16px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a {
+  text-decoration: none;
+}
+
+header {
+  display: block;
+  font-size: 95%;
+}
+
+hgroup {
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+hgroup h1 {
+  margin: 0;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
+  font-size: 3.7em;
+  text-transform: lowercase;
+  line-height: 0.95em;
+  letter-spacing: 0.08em;
+}
+
+hgroup h2 {
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  color: #333333;
+  letter-spacing: 0.25em;
+  text-transform: lowercase;
+  float: right;
+  border-top: 0.125em solid #dddddd;
+  margin-right: 0.42em;
+  padding-left: 0em;
+  line-height: 1em;
+  white-space: nowrap;
+}
+
+hgroup a {
+  color: inherit;
+}
+
+aside {
+  display: inline-block;
+  position: relative;
+  top: -0.15em;
+  font-family: Georgia;
+  font-size: 1.15em;
+  letter-spacing: 0.15em;
+  word-spacing: 0.3em;
+  color: #868c8f;
+}
+
+strong {
+  font-weight: normal;
+}
+
+aside a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul.links, 
+ul.links li {
+  margin: 0;
+  padding: 0;
+}
+
+ul.links {
+  font-family: "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style: none;
+  display: inline-block;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  line-height: normal;
+}
+
+.duane {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.amp {
+  font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic;
+}
+
+.who, 
+.what {
+  font-family: Optima, "Trebuchet MS";
+  font-size: 1.15em;
+  color: #444444;
+  word-spacing: 0;
+  white-space: nowrap;
+}
+
+.space {
+  display: none;
+}
+
+.codes {
+  color: #999999;
+}
