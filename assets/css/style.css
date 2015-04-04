@@ -9506,6 +9506,7 @@ h6 a {
 header {
   display: block;
   font-size: 95%;
+  margin-bottom: 50em;
 }
 
 hgroup {
