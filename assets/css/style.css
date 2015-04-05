@@ -9540,9 +9540,9 @@ hgroup h2 {
   white-space: nowrap;
 }
 
-hgroup a {
+/*hgroup a {
   color: inherit;
-}
+}*/
 
 aside {
   display: inline-block;
@@ -9605,4 +9605,8 @@ ul.links {
 
 .codes {
   color: #999999;
+}
+
+.avatar {
+  margin-bottom: 20px;
 }
