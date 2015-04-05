@@ -1,3 +1,16 @@
+Skip to content
+ This repository
+Pull requests
+Issues
+Gist
+ @dmmoody
+ Watch 5
+  Star 4
+ Fork 103postachio/theme-penso
+ branch: master  theme-penso/assets/css/style.css
+@nerdburnnerdburn on Jan 9 adding theme to github
+1 contributor
+RawBlameHistory     Executable File  9481 lines (9479 sloc)  224.479 kb
 @import url('http://fonts.googleapis.com/css?family=Vollkorn:400italic|Roboto+Slab|Fjalla+One&amp;subset=latin,latin-ext');
 /**
  * Page styles
@@ -2570,7 +2583,6 @@ table th[class*="span"],
  *    http://creativecommons.org/licenses/by/3.0/
  *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
  *    "Font Awesome by Dave Gandy - http://fontawesome.io"
-
  *  Contact
  *  -------------------------------------------------------
  *  Email: dave@fontawesome.io
