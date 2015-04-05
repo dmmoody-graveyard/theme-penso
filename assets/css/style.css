@@ -9522,6 +9522,7 @@ hgroup h1 {
   text-transform: lowercase;
   line-height: 0.95em;
   letter-spacing: 0.08em;
+  color: inherit;
 }
 
 hgroup h2 {
@@ -9583,7 +9584,6 @@ ul.links {
 
 .duane {
   font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  text-decoration: none;
 }
 
 .amp {
@@ -9606,8 +9606,4 @@ ul.links {
 
 .codes {
   color: #999999;
-}
-
-.avatar {
-  margin-bottom: 20px;
 }
