@@ -9540,9 +9540,10 @@ hgroup h2 {
   white-space: nowrap;
 }
 
-/*hgroup a {
+hgroup a {
   color: inherit;
-}*/
+  text-decoration: none;
+}
 
 aside {
   display: inline-block;
