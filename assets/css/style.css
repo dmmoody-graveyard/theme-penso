@@ -1100,7 +1100,7 @@ address {
   font-style: normal;
   line-height: 1.625;
 }
-code,
+/* code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
@@ -1179,7 +1179,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-form {
+ */form {
   margin: 0 0 1.625;
 }
 fieldset {
@@ -9506,11 +9506,11 @@ h1 {
   margin: 0.67em 0;
 }
 
-h1 a, 
-h2 a, 
-h3 a, 
-h4 a, 
-h5 a, 
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
 h6 a {
   text-decoration: none;
 }
@@ -9578,7 +9578,7 @@ aside a {
   color: inherit;
 }
 
-ul.links, 
+ul.links,
 ul.links li {
   margin: 0;
   padding: 0;
@@ -9604,7 +9604,7 @@ ul.links {
   font-style: italic;
 }
 
-.who, 
+.who,
 .what {
   font-family: Optima, "Trebuchet MS";
   font-size: 1.15em;
