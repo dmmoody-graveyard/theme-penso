@@ -15,8 +15,16 @@
 
   <link href="{{ assets('css/style.css') }}" rel="stylesheet" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" title="Tomorrow Night" href="http://highlightjs.org/static/styles/tomorrow-night.css">
-  <script src="http://highlightjs.org/static/highlight.pack.js"></script>
+  <script type='text/javascript'>
+      window.exports = {
+          activate : function (a,b,c) {
+              $("pre").addClass("prettyprint linenums");
+              PR.prettyPrint();
+          }
+      }
+  </script>
+
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?autoload=true&callback=activate"></script>
 
   {% if site.analytics %}
   <script>
@@ -260,11 +268,7 @@
 
     <!-- javascript -->
     <script src="{{ assets('js/penso.min.js') }}" /></script>
-    <script>
-    //Syntax Highlighter
-      hljs.configure({tabReplace: '  '});
-      hljs.initHighlightingOnLoad();
-    </script>
+
   </div>
   </body>
 </html>
